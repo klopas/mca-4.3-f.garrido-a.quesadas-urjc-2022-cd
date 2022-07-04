@@ -24,7 +24,7 @@ spec:
         app: f.garrido-a.quesadas
     spec:
       containers:
-      - name: f.garrido-a.quesadasd
+      - name: fgarrido-aquesadas
         image: franciscogarridocarrasco/f.garrido-a.quesadas:2.0.0
         imagePullPolicy: IfNotPresent
         ports:
