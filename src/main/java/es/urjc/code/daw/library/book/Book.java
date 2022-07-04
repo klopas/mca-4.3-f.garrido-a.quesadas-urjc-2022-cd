@@ -14,14 +14,14 @@ public class Book {
 	
 	private String title;
 	
-	private String description;
+	private String preface;
 
 	public Book() {}
 
-	public Book(String nombre, String description) {
+	public Book(String nombre, String preface) {
 		super();
 		this.title = nombre;
-		this.description = description;
+		this.preface = preface;
 	}
 
 	public String getTitle() {
@@ -32,12 +32,12 @@ public class Book {
 		this.title = title;
 	}
 
-	public String getDescription() {
-		return description;
+	public String getPreface() {
+		return preface;
 	}
 
-	public void setDescription(String description) {
-		this.description = description;
+	public void setPreface(String preface) {
+		this.preface = preface;
 	}
 
 	public Long getId() {
@@ -50,7 +50,7 @@ public class Book {
 
 	@Override
 	public String toString() {
-		return "Book [id=" + id + ", title=" + title + ", description=" + description + "]";
+		return "Book [id=" + id + ", title=" + title + ", preface=" + preface + "]";
 	}
 
 }
